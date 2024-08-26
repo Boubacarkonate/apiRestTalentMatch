@@ -1,16 +1,14 @@
 {
-    "version": 2,
-    "functions": {
-      "api/index.js": {
-        "runtime": "nodejs16.x"  
-    },
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "api/index.js"  
-      }
-    ]
-  }
-
+  "version": 2,
+  "functions": {
+    "api/index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.js"
+    }
+  ]
 }
-  
