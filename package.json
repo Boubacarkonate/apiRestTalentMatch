@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "devstart": "node ./index.js",
-    "build": "echo 'Nothing to build'"
+    "devstart": "node ./index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
