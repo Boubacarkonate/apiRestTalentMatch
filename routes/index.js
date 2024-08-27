@@ -41,7 +41,7 @@ router.get('/freelances', function (req, res, next) {
 
 
 router.get('/', function (req, res, next) {
-	res.render('index', { title: 'API Talent Match' })
+	res.render('index', { title: 'API - React intermédiaire' })
 })
 
 module.exports = router
