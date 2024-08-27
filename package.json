@@ -1,10 +1,11 @@
 {
-  "name": "oc-react2-api",
-  "version": "0.0.0",
+  "name": "api_talentMatch",
+  "version": "1.0.0",
+  "description": "API pour talentMatch",
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "devstart": "node ./index.js"
+    "devstart": "nodemon ./index.js"  
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
